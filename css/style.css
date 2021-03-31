@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*background-color: #FFFFFF;*/
+}
+
+
+
+
+
+/*text styles*/
+
+h1 {
+   
+    font-family: "Prata", serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #3E649E;
+    
+}
+
+
+h2 {
+    font-family: "Prata", serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #3E649E;
+    text-decoration: none;
+}
+h3 {
+    font-family: "Prata", serif;
+    font-weight: 500;
+    font-size: 28px;
+    color: #3E649E;
+    text-decoration: none;
+}
+h4 {
+    font-family: "La Belle Aurore", sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #3E649E;
+    text-decoration: none; 
+    line-height: 1.6;
+}
+
+
+
+
+
+
+/* header section*/
+
+
+
+
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+.main-header .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    
+    
+}
+.EMlogo {
+    cursor: pointer;
+    display: inline;
+}
+h1 {
+    padding-left: 15px;
+}
+.main-nav {
+    margin-left: auto;
+    text-align: center;
+}
+.main-nav li {
+    display: inline;
+}
+.main-nav a {
+    display: inline-block;
+    padding: .5em 1.5em;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3E649E;
+    text-decoration: none;
+}
+.main-nav li a {
+    transition: all 0.3s ease 0s;
+}
+.main-nav li a:hover {
+    color: #F277A4;
+    text-decoration: underline;
+}
+
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#26A699; /* Set a background color */
+    color: white; /* Text color */
+    font-family: "Lato", sans-serif;
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #3E649E; /* Add a dark-grey background on hover */
+  }
+
+
+
+/*hero section*/
+.hero-section .container {
+    display: flex;
+    padding-top: 80px;
+}
+
+
+.hero-section .container .heroImg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*skills*/
+.mySkills h2 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
+
+
+.skillsGrid {
+    display: grid;
+    grid-template-areas:
+    "one two"
+    "three four";   
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 50% 50%;
+    margin-top: 80px;
+    
+}
+
+.A {
+    grid-area: one;
+}
+.B {
+    grid-area: two;
+}
+.C {
+    grid-area: three;
+}
+.D {
+    grid-area: four;
+}
+
+.skillsContainer div{
+    margin-left: 15px;
+}
+
+
+
+
+/*footer section*/
+.footer-section {
+    background-color: #817EC0;
+}
+.footer-section a {
+    color: #FFFFFF;
+}
+.footer-section p {
+    color: #FFFFFF;
+}
+
+/*.footer-section .container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}*/
+.grid-container {
+    display: grid;
+    background-color: #817EC0;
+    grid-template-areas:
+    'one one'
+    'two four'
+    'three four'
+    'five .';
+    grid-template-rows: 40% 36% 18% 7%;
+    grid-template-columns: 60% 40%;
+    padding-bottom: 100px;
+}
+
+
+
+
+.grid-container div {
+    background-color: #817EC0;
+    
+       
+}
+
+.item1 {
+    grid-area: one;
+    padding-top: 80px;
+    
+  
+    
+}
+.item2 {
+    grid-area: two;
+    padding-right: 50px;
+    padding-top: 20px;
+    
+    
+}
+.item3 {
+    grid-area: three;
+    padding-right: 50px;
+    
+}
+.item4 {
+    grid-area: four;
+    padding-top: 20px;
+}
+
+.item5 {
+    grid-area: five;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-top:40px; 
+    transition: transform .2s;
+   
+}
+
+
+.item5:hover {
+      transform: scale(1.2) translate(46px,0); 
+   
+}
+
+
+
+
+
+
+/* Tablet and phone devices (980 and down) */
+@media only screen and (max-width: 980px) {
+
+    .main-header .container{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-nav a {
+        padding: 5px;
+        margin-right: 20px;
+    }
+    .hero-section .container {
+        display: flex;
+        padding-top: 20px;
+    }
+    .hero-section h2 {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 80px;
+    }
+
+    .hero-section .container .heroImg {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero-section h3 {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+  
+    .skillsContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        
+             
+    }
+    .A, .B, .C, .D{
+        text-align: center;
+        
+    }
+   
+
+    .skillsGrid {
+        display: grid;
+        grid-template-areas:
+        "one" 
+        "two"
+        "three"
+        "four";   
+        grid-template-rows: 200px 210px 210px 210px;
+        grid-template-columns: 1fr;
+        margin: 20px 5px 20px 5px;
+               
+    }
+
+    .mySkills .container {
+        margin-bottom: 80px;
+    }
+
+    .skillsContainer div{
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+
+    
+
+    .grid-container {
+        display: grid;
+        background-color: #817EC0;
+        grid-template-areas:
+        "one"
+        "four"
+        "two"
+        "three"
+        "five";
+        grid-template-rows: 320px 300px 200px 200px 100px;
+        grid-template-columns: 1fr;
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .item2 {
+        grid-area: two;
+        padding-right: 0px;
+        padding-top: 20px;
+        
+        
+    }
+    .item3 {
+        grid-area: three;
+        padding-right: 0px;
+        padding-top: 20px;
+    }
+
+    .item4 {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .item5 {
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+        color: #FFFFFF;
+        text-decoration: none;
+         
+        
+    }
+
+  
+
+
+    h1 {
+        font-family: "Prata", serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #3E649E;
+        text-decoration: none;
+    }
+    h2 {
+        font-family: "Prata", serif;
+        font-weight: 500;
+        font-size: 28px;
+        color: #3E649E;
+        text-decoration: none;
+    }
+    h3 {
+        font-family: "Prata", serif;
+        font-weight: 500;
+        font-size: 20px;
+        color: #3E649E;
+        text-decoration: none;
+    }
+    h4 {
+        font-family: "La Belle Aurore", sans-serif;
+        font-size: 30px;
+        color: #FFFFFF;
+        text-decoration: none;
+       
+    }
+    p {
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #3E649E;
+        text-decoration: none; 
+    }
+
+    .item5:hover {
+        transform: none; 
+     
+  }
+  
+
+}
+
+/*
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    background-color: white;
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.preloader img {
+    animation: spin 3s ease;
+    transition: all;
+    width: 100px;
+    margin: 0 auto;
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }*/
