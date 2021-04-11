@@ -62,7 +62,11 @@ p {
 /* header section*/
 
 
-
+.main-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
 
 
 .container {
