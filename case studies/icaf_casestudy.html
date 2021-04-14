@@ -21,9 +21,7 @@
             <a href="index.html"><img class="EMlogo" src="../images/logo.png" alt="logo" style="width:50px;height:50px;"></a>
             <h1>Erin McLeod</h1>
             
-        
-
-            <nav class="main-nav">
+                <nav class="main-nav">
                 <ul class="main-nav-list">
                     <li><a href="../index.html">About</a></li>
                     <li><a href="../index2.html">Work</a></li>
@@ -34,18 +32,130 @@
     </header>
 
 
-    <nav class="navbar sticky-top navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Sticky top</a>
-        </div>
+    <nav id="navbar-example3" class="navbar">
+          <nav class="nav nav-pills flex-row">
+          <a class="nav-link" href="#item-1">Defining the Problem</a>
+          <a class="nav-link" href="#item-2">Design Process</a>
+          <a class="nav-link" href="#item-3">Prototyping</a>
+          <a class="nav-link" href="#item-4">Future Iterations</a>
+          </nav>
       </nav>
-   
+      
+
+
+
+      <main class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic ">Responsive Design Concept</h3>
+                <article class="blog-post">                
+                <p>For this nonprofit redesign, I worked with with two other UX designers to identify an organization open to creative suggestion on their online identity. We were really lucky to find the ICAF, whose founder remains intimately involved in the mission.</p>
+                <p>After extensive research, we discovered that most of the organization's goals for its web presence could be solved with a fresh layout and better content organization, so we architected a new site map and wrapped it in color to match the vision and whimsy of the foundation.</p>               
+                </article>
+            </div>
+                
+
+            <div class="col-md-4">
+                <div class="p-4 mb-3 rounded">
+                    <h4 class="fst-italic">Client</h4>
+                    <p class="mb-0">International Child Art Foundation - Nonprofit</p>
+                    <h4 class="fst-italic">Role</h4>
+                    <p class="mb-0">UX/UI Research and Design, Communications Strategy</p>
+                    <h4 class="fst-italic">Year</h4>
+                    <p class="mb-0">February 2021</p>
+                    <h4 class="fst-italic">Timeframe</h4>
+                    <p class="mb-0">Three Weeks</p>
+                </div>
+            </div>
+        </div><!-- /.row -->
+    </main><!-- /.container -->
+
+
+
+
+
+
+<section class="container">
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-offset="0" tabindex="0">
+        <h2 id="item-1">Defining the Problem</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="icaf_logo" src="../images/icaf_logo.png" alt="logo" style="width:300px">
+                    <img src="../images/Chalk-Chocolate-2011.jpg" class="fingerpainting" alt="photo" style="width: 300px">
+                </div>
+                <div class="col-md-8">
+                    <p>Have you ever wanted to contribute to a local organization but had trouble navigating its website?</p>
+                    <p>The mission of the International Child Art Foundation (ICAF), a nonprofit located in Washington D.C., is to cultivate creativity and grow empathy in children through art for sustainable prosperity and a peaceful future. They sponsor several large-scale initatives every few years that attract visitors from all over the world, and they rely entirely on donations to fund these activities.</p>
+                    <p>With their current focus on planning their flagship event, the 6th Arts Olympiad, for Summer 2021 while COVID-19 precautions remain effect, </p>
+                    <h6><u>We set out to reimagine how the ICAF could leverage its web presence as a way to drive sponsorships and donations.</u></h6>
+                </div>
+            </div>
+            <p>Working virtually across the Washington Metro Area, we spent one week in our research phase, gathering information from Internet reviews, competitive analyses, heuristic evaluations, and user and stakeholder interviews.</p><br><br>
+            <p>What We Learned</p>
+            <p></p>
+            <p>When we interviewed ICAF founder Dr. Ashfaq Ishaq, we were really inspired by his passion for developing empathy in children. For the redesign, Dr. Ishaq wanted to see the ICAF's online presence embody his vision for the organization - both playful and academic. He was also eager to learn what visual changes might help extend the ICAF's reach. </p>
+            <p>User testing told us a lot more about gaps. The current website presented numerous usability challenges:</p>
+            <div class="row">
+                <div class="col-md-5">
+                    <ul>
+                        <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Navigation Guessing Game</li><br>
+                        <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Unhelpful Error Messaging</li><br>
+                        <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Heavy Text Without Meaning</li><br>
+                        <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>ICAF Mission Unclear</li><br>
+                        <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>No Clear Information Architecture</li>
+                    </ul>
+                    <p>Our analysis of the ICAF site for usability, accessibility, and universal design principles presented opportunities to improve color contrast, present content with hierarchy, and organize site architecture so content is easy to find. </p>
+                    <p>Most critical of all, we wanted the website to be a showcase for child creativity and art.</p>
+                </div>
+                <div class="col-md-7">
+                    <img src="../images/icaf.gov.gif" class="gif" style="width: 500px">
+                </div>
+            </div>
+            
+        <h2 id="item-2">Design Process</h2>
+        <p>In the second week of our project, we consolidated our findings and prioritized features for development based on 25+ selected data points from our user tests. We developed a user persona based on one of ICAF's key demographics – an elementary school teacher – and in storyboards, we reimagined ways to simplify the process for parents and teachers to find resources for their children and students through the ICAF’s website.</p> 
+        <img src="../images/icafdata.png" class="stickies" style="width: 900px">
+        <p class="caption">Data points from user research.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../images/Persona.png" class="persona" style="width: 400px">
+                <p class="caption">ICAF User Persona</p>
+            </div>
+            <div class="col-md-6">
+                <img src="../images/Scenario.jpg" class="scenario" style="width: 400px">
+                <p class="caption">ICAF User Scenario</p>
+            </div>
+        </div><br><br>
+        <p>Early Concepts</p>
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="../images/Sketches.jpg" class="sketches" style="width: 375px">
+                    <p class="caption">Sketches</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="../images/Non Profit Redesign.jpg" class="redesign" style="width: 200px">
+                    <p class="caption">Mockup</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../images/Landing Page.jpg" class="landing" style="width: 20ß0px">
+                    <p class="caption">Homepage Wireframe</p>
+                </div>
+        <h2 id="item-3">Prototyping</h2>
+        <p>...</p>
+        <h2 id="item-4">Future Iterations</h2>
+        <p>...</p>
+    </div>
+</section>
     
+
+
+
+
     
-    
-    
-    
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 
 

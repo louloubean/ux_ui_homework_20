@@ -1,7 +1,147 @@
+
+
+
 h1 {
     margin-bottom: 0;
 }
 
+#navbar-example3 {
+    background-color: #817EC0;
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar {
+    justify-content: space-around;
+    
+}
+
+
+a {
+    color: white;
+}
+
+.nav-pills {
+    color: #26A699
+}
+
 .main-nav-list {
     margin-bottom: 0;
+}
+
+main {
+    padding-top: 200px;
+}
+
+.mb-3 {
+    background-color: #817EC0;
+}
+
+
+h3 {
+    border-bottom-style: solid;
+    border-bottom-color: #F277A4;
+}
+
+.col-md-4 p{
+    padding-bottom:20px;
+    color: white;
+    font-size: 16px;
+    padding-left: 20px !important;
+}
+
+h4 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+h5 {
+    font-family: "Prata", serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #3E649E;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.icaf_logo {
+    padding-bottom: 15px;
+}
+
+u {
+    text-decoration-color: #F277A4;
+    text-decoration-thickness: 2px;
+}
+
+h6 {
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    color: #3E649E;
+    text-decoration: none; 
+    line-height: 1.6;
+}
+
+
+li {
+    display: inline;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3E649E;
+    text-decoration: none; 
+    line-height: 1.6;
+}
+
+.listImage {
+    padding-right: 10px;
+    
+}
+
+.fingerpainting {
+    padding-bottom: 20px;
+}
+
+.gif {
+    float: right;
+    padding-top: 10px;
+}
+
+.col-md-5 p {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #3E649E !important;
+    text-decoration: none; 
+    line-height: 1.6;
+}
+
+ß
+
+.stickies {
+    text-align: center;
+}
+.caption {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+
+.col-md-5 p {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.col-md-4 p {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    color: #3E649E !important;
+}
+.col-md-3 p {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
