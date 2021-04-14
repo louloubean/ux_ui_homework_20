@@ -12,13 +12,15 @@
     <link href="../css/style2.css" rel="stylesheet" type="text/css">
     <link href="icaf_casestudy.css" rel="stylesheet" type="text/css">
 
+    
+
 </head>
 <body>
 
     <header class="main-header">
         <div class="container">
            
-            <a href="index.html"><img class="EMlogo" src="../images/logo.png" alt="logo" style="width:50px;height:50px;"></a>
+            <a href="../index.html"><img class="EMlogo" src="../images/logo.png" alt="logo" style="width:50px;height:50px;"></a>
             <h1>Erin McLeod</h1>
             
                 <nav class="main-nav">
@@ -31,13 +33,15 @@
         </div>
     </header>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
     <nav id="navbar-example3" class="navbar">
           <nav class="nav nav-pills flex-row">
           <a class="nav-link" href="#item-1">Defining the Problem</a>
           <a class="nav-link" href="#item-2">Design Process</a>
-          <a class="nav-link" href="#item-3">Prototyping</a>
-          <a class="nav-link" href="#item-4">Future Iterations</a>
+          <a class="nav-link" href="#item-3">Prototypes</a>
+          <a class="nav-link" href="#item-4">Room for Improvement</a>
           </nav>
       </nav>
       
@@ -94,17 +98,20 @@
             <p>What We Learned</p>
             <p></p>
             <p>When we interviewed ICAF founder Dr. Ashfaq Ishaq, we were really inspired by his passion for developing empathy in children. For the redesign, Dr. Ishaq wanted to see the ICAF's online presence embody his vision for the organization - both playful and academic. He was also eager to learn what visual changes might help extend the ICAF's reach. </p>
-            <p>User testing told us a lot more about gaps. The current website presented numerous usability challenges:</p>
+            <p>User testing told us a lot more about gaps. We asked four users to complete three key tasks to assess functionality of the current site.</p>
             <div class="row">
                 <div class="col-md-5">
+                    <img src="../images/saduser.png" style="width:200px">
+                    <p>Task completion rate was only 50%.</p><br>
+                    <p>We categorized our findings from testing into these usability challenges:</p>
                     <ul>
                         <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Navigation Guessing Game</li><br>
                         <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Unhelpful Error Messaging</li><br>
                         <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Heavy Text Without Meaning</li><br>
                         <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>ICAF Mission Unclear</li><br>
                         <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>No Clear Information Architecture</li>
-                    </ul>
-                    <p>Our analysis of the ICAF site for usability, accessibility, and universal design principles presented opportunities to improve color contrast, present content with hierarchy, and organize site architecture so content is easy to find. </p>
+                    </ul>                
+                    <p>We also analyzed the ICAF site for accessibility and universal design principles, identifying other opportunities to improve color contrast, content hierarchy, and architecture so content is easy to find. </p>
                     <p>Most critical of all, we wanted the website to be a showcase for child creativity and art.</p>
                 </div>
                 <div class="col-md-7">
@@ -112,6 +119,9 @@
                 </div>
             </div>
             
+
+
+
         <h2 id="item-2">Design Process</h2>
         <p>In the second week of our project, we consolidated our findings and prioritized features for development based on 25+ selected data points from our user tests. We developed a user persona based on one of ICAF's key demographics – an elementary school teacher – and in storyboards, we reimagined ways to simplify the process for parents and teachers to find resources for their children and students through the ICAF’s website.</p> 
         <img src="../images/icafdata.png" class="stickies" style="width: 900px">
@@ -127,27 +137,92 @@
             </div>
         </div><br><br>
         <p>Early Concepts</p>
+        <p></p>
+        <p>Initial ideas for the Homepage focused on a diverse mix of program descriptions, featured content, and shortcuts to resources that our user persona would look for. We also wanted the ICAF's mission to be immediately understood, with a clear call to action for donors. We felt these concepts, along with an easy navigation bar, would help eliminate the endless click circles experienced by our test group. </p>
             <div class="row">
                 <div class="col-md-5">
                     <img src="../images/Sketches.jpg" class="sketches" style="width: 375px">
-                    <p class="caption">Sketches</p>
+                    <p class="caption" style="font-size: 14px">First Sketches</p>
                 </div>
                 <div class="col-md-3">
                     <img src="../images/Non Profit Redesign.jpg" class="redesign" style="width: 200px">
                     <p class="caption">Mockup</p>
                 </div>
                 <div class="col-md-4">
-                    <img src="../images/Landing Page.jpg" class="landing" style="width: 20ß0px">
+                    <img src="../images/Landing Page.jpg" class="landing" style="width: 200px">
                     <p class="caption">Homepage Wireframe</p>
                 </div>
-        <h2 id="item-3">Prototyping</h2>
-        <p>...</p>
-        <h2 id="item-4">Future Iterations</h2>
-        <p>...</p>
+            </div><br><br>
+            <p>Testing</p>
+            <p></p>
+            <p>We conducted two levels of testing at low and mid-fidelity with eight users to see if our design would improve user experience. We asked them to:</p>               
+           <div class="row">
+               <div class="col-md-6">
+                   <ul style="padding-top: 50px">
+                       <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Find information about the next Arts Olympiad</li><br>
+                       <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Tell us alternate ways to make a donation</li><br>
+                       <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Describe the mission of the ICAF</li><br>
+                   </ul>
+               </div>
+               <div class="col-md-6 text-center">
+                   <img src="../images/happyuser.png" style="width:200px">
+                   <p>This time, task completion rate was 100%.</p>
+               </div>
+           </div><br><br>
+           <p>Inspiration</p>
+           <p></p>
+           <p>Because ICAF did not have brand colors or a style guide, we compiled sources of inspiration with textures and images found within the site's archives and designed a style tile as part of our deliverables.</p>
+           <div style="text-align: center;"><img src="../images/styletile.png" style="width: 600px"></div>
+
+
+        <h2 id="item-3">Prototypes</h2>
+        <p>For the desktop prototype, we made multiple improvements based on test feedback from users, including a modified donation page for easier recognition, corrected buttons for consistency, and improved readabiity for text.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../images/homepage.jpg" style="width: 575px">
+            </div>
+            <div class="col-md-6">
+                <img src="../images/Arts Olympiad Page.png" class="screenshot" style="width: 425px">
+                <img src="../images/Donation Page.png" class="screenshot" style="width: 425px">
+            </div>
+        </div><br><br>
+        <p>For mobile, we designed two unique, responsive layouts and tested them for UI preference and navigation with 24 users. Layout B performed better with users for design preference, but users had a higher rate of task completion with Layout A. This suggested to us that for ICAF, finding the balance between form and function was really critical for the organization to successfully reach its audience.</p>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <img src="../images/mobile A.gif" style="width: 300px">
+                <p>Mobile Layout A</p>
+                <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Clean</li><br>
+                <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Intuitive</li><br>
+                <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Low Effort User Flow</li><br>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="../images/mobile B.gif" style="width: 300px">
+                <p>Mobile Layout B</p>
+                <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>More Interactions</li><br>
+                <img src="../images/list_icon.png" class="listImage" style="width:20px"><li>Compact Design</li><br>
+            </div>
+        </div>
+
+
+        <h2 id="item-4">Room for Improvement</h2>
+        <p>Before we closed out our project, we had one last test on our concept, and that was a virtual presentation to Dr. Ishaq. We shared the findings from our user research and talked through the tested design concepts we implemented to improve usability. We also shared metrics from our A/B testing, and he responded positively, grateful to be aware of the data that underpinned our decisions. </p>
+        <p>The true test of our design would be to see how it fares in the wild. Unanalyzed metrics from our user testing would likely yield many further opportunities to improve site navigation and content layout. With more time, we would also be able to advance the prototype into a coded interface to share with the nonprofit as a thank you for their openness and positivity. </p>
     </div>
 </section>
     
+<!--footer section-->
 
+<section class="footer-section2">
+    <div class="container">
+        <h2>Interested in learning more?<br>
+            Contact me.</h2>
+        <img class="line" src="../images/Line 1.png">
+        <div class="center">
+          
+            <a href="mailto: email@gmail.com"><button class="contact">Get in Touch</button></a>
+        </div>
+    </div>
+</section>
 
 
 
@@ -155,7 +230,7 @@
 
 
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
 
 
 
@@ -164,6 +239,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/index.js"></script>
-<script src="icaf_casestudy.js"></script>
+
 </body>
 </html>
